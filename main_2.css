@@ -1,0 +1,77 @@
+body{
+	font-family: Helvetica;
+	
+}
+
+h1{
+	font-size: 3em;
+	background: url(dolphin-jump.jpeg) 51% 25% no-repeat,
+	            url(dolphin-jump.jpeg) 67% 25% no-repeat,
+				url(dolphin-jump.jpeg) 84% 25% no-repeat,
+				url(dolphin-jump.jpeg) 100% 25% no-repeat;
+	background-color: #66ccff;
+	font-family: "Snell Roundhand", cursive;
+	text-shadow: -2px 2px 1px white;
+	
+	
+}
+
+
+h2{
+	font-style: normal;
+}	
+	
+
+h3{
+	font-style: italic;
+	color: black;
+}
+
+ul{
+	font-size: 1.20em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+}
+
+footer{
+	font-size: .90em;
+	font-style: italic;
+}
+
+a{
+	color: #009999;
+	text-decoration: none;
+}
+
+#navigation{
+	font-size: 2.5em;
+	font-family: "Snell Roundhand", cursive;
+	text-align: center;
+	height: 30px;
+}
+
+#taxonomy{
+	float: right;
+}
+
+#dolphin1{
+	float: right;
+}
+
+#anatomy{
+	float: right;
+}
+
+#intelligence{
+	float: right;
+}
+
+li{
+	height: 27px;
+}
+
+figure{
+	box-shadow: 5px -5px 10px 1px #009999;
+}
