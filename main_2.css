@@ -107,5 +107,11 @@ main a::after{
 		text-shadow: -2px 2px 1px white;
 }
 
+.updated::after{
+	content: " Updated!";
+	color: red;
+	font-style: italic;
+}
+
 
 
