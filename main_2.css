@@ -6,17 +6,11 @@ body{
 
 h1{
 	font-size: 3em;
-	font-family: "Snell Roundhand", cursive;
-	text-shadow: -2px 2px 1px white;
-	background: rgba(147,206,222,1);
-	background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
-	background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
-	background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
-	background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
-	background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );	
-}
+		background: url(dolphin-jump.jpeg) 100% 25% no-repeat;
+		background-color: #66ccff;
+		font-family: "Snell Roundhand", cursive;
+		text-shadow: -2px 2px 1px white;
+}		
 
 
 h2{
@@ -47,6 +41,12 @@ a{
 	text-decoration: none;
 }
 
+#copywright{
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #navigation{
 	font-size: 2.5em;
 	font-family: "Snell Roundhand", cursive;
@@ -56,15 +56,14 @@ a{
 
 .position{
 	float: right;
+	max-width: auto;
 }
 
 li{
 	height: 27px;
 }
 
-figure{
-	box-shadow: 5px -5px 10px 1px;
-}
+
 
 main{
 	max-width: 960px;
@@ -73,7 +72,7 @@ main{
 }
 
 #description{
-	background: rgba(147,206,222,1);
+	background: white;
 	padding: 0px 15px 0px 25px;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -82,7 +81,7 @@ main{
 }
 
 #taxonomy{
-	background: rgba(147,206,222,1);
+	background: white;
 	padding: 0px 15px 0px 25px;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -90,7 +89,7 @@ main{
 }
 
 #hybrids{
-	background: rgba(147,206,222,1);
+	background: white;
 	padding: 0px 15px 0px 25px;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -114,6 +113,22 @@ main{
 	content: " Updated!";
 	color: red;
 	font-style: italic;
+}
+
+.page-heading{
+	text-align: center;
+}
+
+.fig_caption{
+	font-size: .85em;
+	font-style: italic;
+	max-width: 220px;
+}
+
+#fig_caption{
+	font-size: .85em;
+	font-style: italic;
+	max-width: 180px;
 }
 
 
