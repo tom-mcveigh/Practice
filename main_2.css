@@ -1,6 +1,7 @@
 body{
 	font-family: Helvetica;
 	
+	
 }
 
 h1{
@@ -65,8 +66,10 @@ figure{
 	box-shadow: 5px -5px 10px 1px;
 }
 
-main a::after{
-	content: "(" attr(href) ")";
+main{
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #description{
